@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+
+# Vite caches (isolés par serveur)
+node_modules/.vite-overlay/
+node_modules/.vite-control/
+
+# Backups
+*.zip
+*.bak
+
+# Replay clips (auto-générés en cours de match)
+public/replays/
+!public/replays/.gitkeep
+
+# Compiled launcher (re-compilable depuis tools/launcher.cs)
+rl-studio.exe
+
+# Electron store (config utilisateur locale)
+*.json5
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers de test temporaires
+t.js
+t2.js
+t3.js
+t4.js
+t5.js
+t6.js
+t7.js
+t8.js
+test-main.js
+test2.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/

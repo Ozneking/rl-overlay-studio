@@ -1,0 +1,425 @@
+{
+  "connection": {
+    "mockMode": false,
+    "websocketUrl": "ws://127.0.0.1:49124",
+    "reconnectMs": 2000
+  },
+  "match": {
+    "eventTitle": "RBRS | LIGUE 12 - PURPLE | WEEK 7",
+    "seriesType": "BO5",
+    "seriesScore": {
+      "left": 0,
+      "right": 0
+    },
+    "showConnectionStatus": false,
+    "autoIncrementSeries": true
+  },
+  "teams": {
+    "left": {
+      "name": "ONEGAME ACY",
+      "shortName": "OGAC",
+      "logo": "https://rbrs.rocketbaguette.com/media/team-8d5d7d8d-d2d3-4973-b0b3-a143127ea308-1775056798.png",
+      "color": "#2257ff",
+      "side": 0
+    },
+    "right": {
+      "name": "LES CASTORS CONTENTS",
+      "shortName": "CAST",
+      "logo": "https://rbrs.rocketbaguette.com/media/team-56164332-7390-474e-bd77-53b6a17350f9-1775408025.jpg",
+      "color": "#ff9500",
+      "side": 1
+    }
+  },
+  "ui": {
+    "showSideBoosts": true,
+    "showPlayerCard": true,
+    "showBoostRing": true,
+    "showEvents": true,
+    "eventTtlMs": 2200,
+    "teamSize": 3,
+    "updateThrottleMs": 496,
+    "targetGraceMs": 200
+  },
+  "positions": {
+    "boostRight": {
+      "x": 0,
+      "y": 209,
+      "scale": 1.05
+    },
+    "boostLeft": {
+      "x": -2,
+      "y": 228,
+      "scale": 1.05
+    },
+    "boostRing": {
+      "x": -111,
+      "y": -110,
+      "scale": 1.4500000000000004
+    },
+    "scoreboard": {
+      "x": -2,
+      "y": 20,
+      "scale": 1.4500000000000004
+    }
+  },
+  "tournament": {
+    "eventName": "RBRS LIGUE 12 PURPLE",
+    "phaseLabel": "POULE",
+    "dayLabel": "WEEK 7",
+    "waitingScreen": {
+      "views": [
+        "nextMatch"
+      ],
+      "rotationSec": 15,
+      "countdownTarget": "2026-05-29T19:00:00.000Z",
+      "sidebarTitle": "PROCHAIN MATCH"
+    },
+    "teams": [
+      {
+        "id": "o1ogdpv",
+        "name": "OneGame ACY",
+        "shortName": "OGAC",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-8d5d7d8d-d2d3-4973-b0b3-a143127ea308-1775056798.png",
+        "color": "#2257ff",
+        "players": [
+          {
+            "name": "Disco_VT",
+            "country": "fr",
+            "role": "player",
+            "photo": "https://thispersondoesnotexist.com/"
+          },
+          {
+            "name": "unitymgk",
+            "country": "gb",
+            "role": "coach",
+            "photo": "https://thispersondoesnotexist.com/"
+          },
+          {
+            "name": "LYS_Galadonn",
+            "country": "fr",
+            "role": "player",
+            "photo": "https://thispersondoesnotexist.com/"
+          },
+          {
+            "name": "RL Liryz",
+            "country": "fr",
+            "role": "player",
+            "photo": "https://thispersondoesnotexist.com/"
+          },
+          {
+            "name": "Brook62-39",
+            "country": "fr",
+            "role": "sub",
+            "photo": ""
+          }
+        ]
+      },
+      {
+        "id": "lghd0gt",
+        "name": "Quantum",
+        "shortName": "QTNM",
+        "logo": "https://rbrs.rocketbaguette.com/images/nologo.webp",
+        "color": "#ff335f",
+        "players": []
+      },
+      {
+        "id": "4kqp0so",
+        "name": "Les castors contents",
+        "shortName": "CAST",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-56164332-7390-474e-bd77-53b6a17350f9-1775408025.jpg",
+        "color": "#ff9500",
+        "players": [
+          {
+            "name": "Naa0H",
+            "country": "fr",
+            "role": "player",
+            "photo": ""
+          },
+          {
+            "name": "Wellfayd",
+            "country": "be",
+            "role": "player",
+            "photo": ""
+          },
+          {
+            "name": "heyEddd",
+            "country": "fr",
+            "role": "player",
+            "photo": ""
+          }
+        ]
+      },
+      {
+        "id": "0nclyg6",
+        "name": "Foufou de Sochaux",
+        "shortName": "FOUF",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-55861f30-fc4e-42e6-9ee5-cabd3cfdaa2e-1775414608.jpg",
+        "color": "#00c896",
+        "players": []
+      },
+      {
+        "id": "1itsm59",
+        "name": "Nom d'Equipe",
+        "shortName": "MANU",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-6a5fc3d0-270b-4b7e-b65b-e817f8c188d9-1775753767.jpg",
+        "color": "#c850ff",
+        "players": []
+      },
+      {
+        "id": "ujhapkb",
+        "name": "Occitània",
+        "shortName": "OCCI",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-f2260003-4fe8-4a76-ab08-ebbe720decef-1775754756.jpg",
+        "color": "#ffd600",
+        "players": []
+      },
+      {
+        "id": "lpril1o",
+        "name": "AMG",
+        "shortName": "AMGG",
+        "logo": "https://rbrs.rocketbaguette.com/media/team-6cd66674-f564-4702-924c-95d4de1df87f-1774457104.png",
+        "color": "#00b4d8",
+        "players": [
+          {
+            "name": "POCOS_NiTraMus",
+            "country": "fr",
+            "role": "player",
+            "photo": ""
+          },
+          {
+            "name": "StarFou42",
+            "country": "fr",
+            "role": "player",
+            "photo": ""
+          },
+          {
+            "name": "Unknown",
+            "country": "",
+            "role": "player",
+            "photo": ""
+          }
+        ]
+      }
+    ],
+    "pools": [
+      {
+        "id": "fyg27tc",
+        "name": "LIGUE 12 PURPLE",
+        "teamIds": [
+          "o1ogdpv",
+          "4kqp0so",
+          "0nclyg6",
+          "1itsm59",
+          "ujhapkb",
+          "lpril1o",
+          "lghd0gt"
+        ],
+        "matches": [
+          {
+            "id": "1lyg0q5",
+            "team1Id": "o1ogdpv",
+            "team2Id": "4kqp0so",
+            "score1": 0,
+            "score2": 0,
+            "played": true
+          },
+          {
+            "id": "qvah0bj",
+            "team1Id": "o1ogdpv",
+            "team2Id": "0nclyg6",
+            "score1": 2,
+            "score2": 2,
+            "played": true,
+            "winnerId": "o1ogdpv"
+          },
+          {
+            "id": "8v22vul",
+            "team1Id": "o1ogdpv",
+            "team2Id": "1itsm59",
+            "score1": 0,
+            "score2": 0,
+            "played": true
+          },
+          {
+            "id": "a5q5y6q",
+            "team1Id": "o1ogdpv",
+            "team2Id": "ujhapkb",
+            "score1": 2,
+            "score2": 3,
+            "played": true,
+            "winnerId": "ujhapkb"
+          },
+          {
+            "id": "8gz41sg",
+            "team1Id": "o1ogdpv",
+            "team2Id": "lpril1o",
+            "score1": 0,
+            "score2": 0,
+            "played": true
+          },
+          {
+            "id": "gtxcavv",
+            "team1Id": "o1ogdpv",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "aymo1o7",
+            "team1Id": "4kqp0so",
+            "team2Id": "0nclyg6",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "4limd1k",
+            "team1Id": "4kqp0so",
+            "team2Id": "1itsm59",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "rd1v0jz",
+            "team1Id": "4kqp0so",
+            "team2Id": "ujhapkb",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "60ikn76",
+            "team1Id": "4kqp0so",
+            "team2Id": "lpril1o",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "dzci2d8",
+            "team1Id": "4kqp0so",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "hpqpuhb",
+            "team1Id": "0nclyg6",
+            "team2Id": "1itsm59",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "2mp58dv",
+            "team1Id": "0nclyg6",
+            "team2Id": "ujhapkb",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "lscg3bp",
+            "team1Id": "0nclyg6",
+            "team2Id": "lpril1o",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "3zkdrqf",
+            "team1Id": "0nclyg6",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "lbxzjei",
+            "team1Id": "1itsm59",
+            "team2Id": "ujhapkb",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "4tzeukx",
+            "team1Id": "1itsm59",
+            "team2Id": "lpril1o",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "atdvdbo",
+            "team1Id": "1itsm59",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "222fxx1",
+            "team1Id": "ujhapkb",
+            "team2Id": "lpril1o",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "688m9gw",
+            "team1Id": "ujhapkb",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          },
+          {
+            "id": "5xyd5eq",
+            "team1Id": "lpril1o",
+            "team2Id": "lghd0gt",
+            "score1": 0,
+            "score2": 0,
+            "played": false
+          }
+        ]
+      }
+    ],
+    "bracket": {
+      "format": "single",
+      "rounds": []
+    },
+    "schedule": [
+      {
+        "id": "1o3t6yv",
+        "time": "21:00",
+        "team1Id": "o1ogdpv",
+        "team2Id": "4kqp0so",
+        "label": ""
+      },
+      {
+        "id": "00h5ltr",
+        "time": "TBD",
+        "team1Id": "lpril1o",
+        "team2Id": "0nclyg6",
+        "label": "oo"
+      },
+      {
+        "id": "9a6s5er",
+        "time": "TBD",
+        "team1Id": "1itsm59",
+        "team2Id": "ujhapkb",
+        "label": ""
+      }
+    ],
+    "nextMatch": {
+      "label": "PROCHAIN MATCH",
+      "sublabel": "",
+      "team1Id": "4kqp0so",
+      "team2Id": "o1ogdpv"
+    }
+  }
+}
